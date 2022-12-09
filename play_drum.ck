@@ -17,14 +17,13 @@ hihat.samples() => hihat.pos;
 hihat2.samples() => hihat2.pos;
 crashsim.samples() => crashsim.pos;
 
-0.3 => kick.gain;
-0.3 => snare.gain;
-0.3 => hihat.gain;
-0.3 => hihat2.gain;
-0.3 => crashsim.gain;
+1.0 => kick.gain;
+1.0 => snare.gain;
+1.0 => hihat.gain;
+1.0 => hihat2.gain;
+1.0 => crashsim.gain;
 
-
-0.2::second => dur tempo;
+0.25::second => dur tempo;
 
 [0,0,0,0, 0,0,0,0, 0,0,0,0, 0,0,0,0,
 0,0,0,0, 0,0,0,0, 0,0,0,0, 0,0,0,0,

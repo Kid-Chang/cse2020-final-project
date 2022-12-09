@@ -1,12 +1,12 @@
 public class BPM { // Beats Per Minute
-		static dur wn; // ??? (whole note)
-		static dur hn; // 2???(half note)
-		static dur dhn; // ? 2??? (dotted half note)
-        static dur qn; // 4???(quarter note)
-		static dur dqn; // ? 4??? (dotted quarter note)
-        static dur en; // 8??? (eighth note)
-		static dur den; //? 8??? (dotted eighth note)
-        static dur stn; // 16??? (sixteenth note)
+		static dur wn; // (whole note)
+		static dur hn; // (half note)
+		static dur dhn; // (dotted half note)
+        static dur qn; // (quarter note)
+		static dur dqn; // (dotted quarter note)
+        static dur en; // (eighth note)
+		static dur den; // (dotted eighth note)
+        static dur stn; // (sixteenth note)
     
 
     fun void tempo(float beat) { // beat in BPM
@@ -22,3 +22,4 @@ public class BPM { // Beats Per Minute
 				en + stn => den;
     }
 }
+
